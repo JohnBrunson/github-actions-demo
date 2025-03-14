@@ -2,8 +2,9 @@ interface AdvertisementProps {
   companyName: string;
   productDescription: string;
   price: string;
-};
+}
 
+// comment
 function Advertisement(props: AdvertisementProps) {
   return (
     <div className="advertisement">
